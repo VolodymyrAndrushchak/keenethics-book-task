@@ -1,0 +1,74 @@
+/*---start main-content  ---*/
+.main-content {
+  position: relative;
+  /*min-height: 900px;*/
+}
+
+.main-content-padding{
+  /*position: absolute;*/
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 90%;
+  margin: auto;
+  margin: 20px 0;
+}
+
+.add-book {
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.list-book{
+  width: 400px;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.list-book li {
+  width: 100%;
+  display: table;
+  background-color: #EEF7FF;
+  border-radius: 4px;
+  padding: 5px 5px;
+  margin-bottom: 5px;
+}
+
+.book-data{
+  width: 76%;
+  float: left;
+  margin-top: 16px;
+}
+
+.book-options{
+  width: 17%;
+  height: 50px;
+  float: right;
+}
+
+.btn-edit-book {
+  width: 67px;
+  float: right;
+}
+
+.btn-del-book {
+  float: right;
+}
+
+.author-book{
+}
+
+.data-published {
+  float: right;
+}
+
+.next-book{
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+/*---end main-content ---*/

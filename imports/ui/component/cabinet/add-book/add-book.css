@@ -1,0 +1,100 @@
+/*---start main-content  ---*/
+.main-content {
+  position: relative;
+  min-height: 900px;
+}
+
+.main-content-padding{
+  /*position: absolute;*/
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 90%;
+  margin: auto;
+}
+
+.title-add {
+  margin-top: 10px;
+}
+
+.add-field {
+  background-color: #EEF7FF;
+  border-radius: 4px;
+  padding: 5px 5px;
+  margin-bottom: 5px;
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+.add-field input {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.statusAdded {
+  color: darkred;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.add-published-book {
+  /*margin-bottom: 0px !important;*/
+}
+
+.add-btn-success {
+}
+
+.searchISDN {
+  margin-top: 10px;
+}
+.helpText {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.searchISDN a {
+  width: 120px;
+  display: block;
+  margin: 0 auto;
+}
+
+.searchedData {
+  width: 80%;
+  float: left;
+}
+
+.bth-searched {
+  width: 20%;
+  float: right;
+}
+
+.SauthorName, .SbookName, .Sisdn, .Spublished {
+  float: left;
+}
+
+.SauthorName, .SbookName {
+  width: 65%;
+}
+
+.Sisdn, .Spublished {
+  width: 35%;
+}
+
+.li-searched-book {
+  display: table;
+  width: 100%;
+  margin: 5px 0;
+}
+
+.imgPreview {
+  width: 100%;
+}
+
+.imgPreview img {
+  width: inherit;
+}
+
+/*---end main-content ---*/

@@ -1,0 +1,79 @@
+/*--- start header ---*/
+header {
+	height: 60px;
+	background-color: #1A1B48;
+}
+
+header .regist {
+	/*float: right;*/
+}
+
+.header-logo {
+	background-image: url(img/logo.png);
+	height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+	margin-top: 5px;
+}
+
+#header-list {
+	float: right;
+	position: relative;
+    top: 20px;
+}
+
+.navbar-header li {
+	float: left;
+	cursor: pointer;
+}
+
+.navbar-header li {
+	margin-right: 25px;
+	padding-left: 20px;
+}
+
+.navbar-header li:first-child {
+	background-image: url(img/main.png);
+	background-repeat: no-repeat;
+    background-position-y: 1px;
+}
+.navbar-header li:first-child:hover {
+	background-image: url(img/main-hover.png);
+	background-position-y: 1px;
+	background-repeat: no-repeat;
+}
+
+.navbar-header li:nth-child(2) {
+	background-image: url(img/list.png);
+	background-repeat: no-repeat;
+    background-position-y: 1px;
+}
+.navbar-header li:nth-child(2):hover {
+	background-image: url(img/list-hover.png);
+	background-position-y: 1px;
+	background-repeat: no-repeat;
+}
+
+.navbar-header li:last-child {
+	background-image: url(img/exit.png);
+	background-repeat: no-repeat;
+    background-position-y: 2px;
+}
+
+.navbar-header li:last-child:hover {
+	background-image: url(img/exit-hover.png);
+	background-repeat: no-repeat;
+	background-position-y: 2px;
+}
+
+.navbar-header a {
+	color: #ffffff;
+
+}
+
+.navbar-header a:hover {
+	color: #c8caeb;
+	cursor: pointer;
+}
+
+/*---  finish header ---*/

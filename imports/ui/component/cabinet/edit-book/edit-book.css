@@ -1,0 +1,66 @@
+p{
+  margin-bottom: 0px;
+}
+
+.main-content {
+  position: relative;
+  /*min-height: 900px;*/
+}
+
+.main-content-padding{
+  /*position: absolute;*/
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 90%;
+  margin: auto;
+}
+
+.add-book {
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.list-book-edit{
+  width: 400px;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.list-book-edit li {
+  background-color: #EEF7FF;
+  border-radius: 4px;
+  padding: 5px 5px;
+  margin-bottom: 5px;
+}
+
+.author-book{
+}
+
+.data-published {
+  float: right;
+}
+
+.next-book{
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.origin-field{
+  margin-bottom: 10px;
+}
+
+.edit-filed input {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.success-button{
+  float: right;
+}
+/*---end main-content ---*/
